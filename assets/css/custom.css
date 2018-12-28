@@ -1,0 +1,22 @@
+.table-hover > tbody > tr:hover {
+	background-color: magenta;
+	cursor: pointer;
+}
+fieldset{
+	border: 1px solid #ddd;
+	margin:20px 0;
+	padding: 10px;
+}
+legend{
+	display: inline;
+	width: auto;
+	border:1px solid #ddd;
+	background-color: lightgreen;
+	padding: 5px 20px;
+}
+h2.title{
+	border-top: 2px solid #999;
+	border-bottom: 1px solid #ddd;
+	padding: 5px 0;
+	font-size: 1.6em;
+}

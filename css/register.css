@@ -1,0 +1,105 @@
+/*html 구조관련 css*/
+body {
+    font-family: 'Helvetica Neue','Helvetica','Arial';
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    margin: 0;
+}
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+}
+legend {
+  padding: 0;
+  border: 0;
+}
+@media screen and (max-width: 767px){
+  fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+  margin-top: 15px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+
+ /*button 관련 css*/
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn-primary {
+  color: #333;
+  background-color: #ddd;
+  border-color: #fff;
+}
+.horizontal-center-content {
+    margin-top: .8rem!important;
+    margin-bottom: .5rem!important;
+}
+.btn:active {
+    background-image: none;
+}
+.btn-outline-success.active, .btn-outline-success:active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/*page navigation 관련*/
+.bd-example .pagination {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+_flex.scss:20
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
